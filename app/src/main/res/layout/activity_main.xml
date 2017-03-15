@@ -95,4 +95,5 @@
         app:layout_constraintLeft_toRightOf="@+id/textView3"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtDivident" />
+
 </android.support.constraint.ConstraintLayout>
