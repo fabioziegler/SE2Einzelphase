@@ -23,21 +23,19 @@ public class MainActivity extends AppCompatActivity {
 
         double divident = 0, divisor = 0, result;
         boolean error = false;
-        String errorMessage = "";
 
         try {
             divident = Double.parseDouble(txtDivident.getText().toString());
             divisor = Double.parseDouble(txtDivisor.getText().toString());
         }catch (Exception e){
             error = true;
-            errorMessage = e.getMessage();
         }
 
         if(!error){
             result = divident / divisor;
             lblOutput.setText("Output: \t" + result);
         }else {
-            lblOutput.setText("Bitte geben Sie gültige Daten ein" + errorMessage != null ? (" (" + errorMessage + ")") : ".");
+            lblOutput.setText("Bitte geben Sie gueltige Werte ein.");
         }
 
     }
