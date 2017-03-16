@@ -38,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
             lblOutput.setText("Bitte geben Sie gueltige Werte ein.");
         }
 
+
+        System.out.println("Neue Branch Test");
+
     }
 
 
